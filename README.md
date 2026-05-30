@@ -2,7 +2,7 @@
 
 A production-pattern Model Context Protocol (MCP) server that runs on **AWS Bedrock AgentCore Runtime** — no EC2, no ECS, no Lambda, no load balancers. Cognito-authenticated, role-based tool access, deployable with one AWS CLI command.
 
-> Full walkthrough on Medium: **[The Serverless MCP Server](docs/ARTICLE.md)**
+> Full walkthrough on Medium: **https://medium.com/towards-artificial-intelligence/0i-built-a-fully-authenticated-mcp-server-without-ma%E2%81%B6naging-any-servers-9330b0a7b8b8**
 
 ---
 
@@ -83,7 +83,7 @@ serverless-mcp-server/
 ### 1. Clone
 
 ```bash
-git clone https://github.com/<your-user>/serverless-mcp-server.git
+git clone https://github.com/Rajeev0814/serverless-mcp-server.git
 cd serverless-mcp-server
 ```
 
@@ -244,4 +244,4 @@ MIT — see [LICENSE](LICENSE).
 
 ## Companion article
 
-For the full narrative explanation — why AgentCore exists, what the trade-offs are, and the war story behind the Authorization header — read [`docs/ARTICLE.md`](docs/ARTICLE.md).
+For the full narrative explanation — why AgentCore exists, what the trade-offs are, and the war story behind the Authorization header — read **https://medium.com/towards-artificial-intelligence/0i-built-a-fully-authenticated-mcp-server-without-ma%E2%81%B6naging-any-servers-9330b0a7b8b8**
